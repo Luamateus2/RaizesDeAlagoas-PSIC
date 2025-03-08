@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ConselheiroIdle
+  m_Name: NPCGovernador
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,15 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -3762370241924868457, guid: 0dd2cc0add24e564aa7c69bf1db701b3, type: 3}
+      value: {fileID: -1957198996, guid: 777ea71955afb2f4ab27ae6203ceef10, type: 3}
     - time: 0.33333334
-      value: {fileID: 9092303996889995899, guid: 0dd2cc0add24e564aa7c69bf1db701b3, type: 3}
+      value: {fileID: -70422661, guid: 777ea71955afb2f4ab27ae6203ceef10, type: 3}
     - time: 0.6666667
-      value: {fileID: 5431430094405090664, guid: 0dd2cc0add24e564aa7c69bf1db701b3, type: 3}
+      value: {fileID: 96608793, guid: 777ea71955afb2f4ab27ae6203ceef10, type: 3}
+    - time: 1
+      value: {fileID: 2054876778, guid: 777ea71955afb2f4ab27ae6203ceef10, type: 3}
+    - time: 1.3333334
+      value: {fileID: 196405926, guid: 777ea71955afb2f4ab27ae6203ceef10, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,15 +52,17 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -3762370241924868457, guid: 0dd2cc0add24e564aa7c69bf1db701b3, type: 3}
-    - {fileID: 9092303996889995899, guid: 0dd2cc0add24e564aa7c69bf1db701b3, type: 3}
-    - {fileID: 5431430094405090664, guid: 0dd2cc0add24e564aa7c69bf1db701b3, type: 3}
+    - {fileID: -1957198996, guid: 777ea71955afb2f4ab27ae6203ceef10, type: 3}
+    - {fileID: -70422661, guid: 777ea71955afb2f4ab27ae6203ceef10, type: 3}
+    - {fileID: 96608793, guid: 777ea71955afb2f4ab27ae6203ceef10, type: 3}
+    - {fileID: 2054876778, guid: 777ea71955afb2f4ab27ae6203ceef10, type: 3}
+    - {fileID: 196405926, guid: 777ea71955afb2f4ab27ae6203ceef10, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 1.6666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
