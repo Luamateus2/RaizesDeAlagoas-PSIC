@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 777ea71955afb2f4ab27ae6203ceef10
+guid: 7ea024c7b85558548a1a850182590fd4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4723107735738678597
-    second: Idle_0
+      213: 7807714547847638721
+    second: Militar_0
   - first:
-      213: -7385789195546760866
-    second: Idle_1
+      213: -7450769185100125320
+    second: Militar_1
   - first:
-      213: 3234629978573100161
-    second: Idle_2
+      213: 3114405115707679220
+    second: Militar_2
   - first:
-      213: 6373048116405451881
-    second: Idle_3
+      213: 6696261002692105920
+    second: Militar_3
   - first:
-      213: 7264182050183361747
-    second: Idle_4
+      213: -1838835243271382731
+    second: Militar_4
+  - first:
+      213: 2287821839075100176
+    second: Militar_5
+  - first:
+      213: -6438338315852395249
+    second: Militar_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,111 +118,155 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_0
+      name: Militar_0
       rect:
         serializedVersion: 2
-        x: 30
+        x: 45
         y: 0
-        width: 49
-        height: 76
+        width: 29
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 911f1ba6519b3fa47aba21f472bc3884
-      internalID: -1957198996
+      spriteID: 1ceab14a3039a5c60800000000000000
+      internalID: 7807714547847638721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_1
+      name: Militar_1
       rect:
         serializedVersion: 2
-        x: 158
+        x: 173
         y: 0
-        width: 49
-        height: 77
+        width: 29
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1376fc918d107414ea00a42a87a2cbb6
-      internalID: -70422661
+      spriteID: 87b2eaae6ec899890800000000000000
+      internalID: -7450769185100125320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2
+      name: Militar_2
       rect:
         serializedVersion: 2
-        x: 286
+        x: 301
         y: 0
-        width: 49
-        height: 77
+        width: 29
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1907ef52ec13f2f4f8c90adf18cfc321
-      internalID: 96608793
+      spriteID: 4f16a60b3f6983b20800000000000000
+      internalID: 3114405115707679220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_3
+      name: Militar_3
       rect:
         serializedVersion: 2
-        x: 414
+        x: 429
         y: 0
-        width: 49
-        height: 78
+        width: 29
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c7b53dc71defe3b469bc2fec9cf0b0ba
-      internalID: 2054876778
+      spriteID: 0c693c457e5edec50800000000000000
+      internalID: 6696261002692105920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_4
+      name: Militar_4
       rect:
         serializedVersion: 2
-        x: 542
+        x: 557
         y: 0
-        width: 49
-        height: 77
+        width: 29
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2c792c328a5d5904584eeb3a52ab698c
-      internalID: 196405926
+      spriteID: 539175cb6152b76e0800000000000000
+      internalID: -1838835243271382731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Militar_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 0
+        width: 29
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016c37b57d9ffbf10800000000000000
+      internalID: 2287821839075100176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Militar_6
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 0
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dc4dbd96d66a6a0800000000000000
+      internalID: -6438338315852395249
       vertices: []
       indices: 
       edges: []
@@ -225,7 +275,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e2a01be8eb294ba4c8da1aa29f60c3fb
+    spriteID: 2f434aa67423d714abc7b4b558c6d1a5
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +285,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Idle_0: -1957198996
-      Idle_1: -70422661
-      Idle_2: 96608793
-      Idle_3: 2054876778
-      Idle_4: 196405926
+      Militar_0: 7807714547847638721
+      Militar_1: -7450769185100125320
+      Militar_2: 3114405115707679220
+      Militar_3: 6696261002692105920
+      Militar_4: -1838835243271382731
+      Militar_5: 2287821839075100176
+      Militar_6: -6438338315852395249
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
