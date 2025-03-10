@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 69e299a4f2fa416478b9bde959b3ae40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3812449683007701190
+    second: cangaceiro2correndo_0
+  - first:
+      213: -9082803202268249614
+    second: cangaceiro2correndo_1
+  - first:
+      213: -2481693300636032239
+    second: cangaceiro2correndo_2
+  - first:
+      213: 8789853253712617439
+    second: cangaceiro2correndo_3
+  - first:
+      213: 2883751330970192753
+    second: cangaceiro2correndo_4
+  - first:
+      213: 8506557507847139450
+    second: cangaceiro2correndo_5
+  - first:
+      213: 7784997737526268839
+    second: cangaceiro2correndo_6
+  - first:
+      213: 5679530559789506273
+    second: cangaceiro2correndo_7
+  - first:
+      213: -8306436132005547787
+    second: cangaceiro2correndo_8
+  - first:
+      213: 4884771429845710361
+    second: cangaceiro2correndo_9
+  - first:
+      213: 6872356551367187832
+    second: cangaceiro2correndo_10
+  - first:
+      213: -2671645750193148953
+    second: cangaceiro2correndo_11
+  - first:
+      213: -885288177803858523
+    second: cangaceiro2correndo_12
+  - first:
+      213: -1333979124334061907
+    second: cangaceiro2correndo_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cangaceiro2correndo_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 140
+        width: 89
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f76486635771bc0800000000000000
+      internalID: -3812449683007701190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 142
+        width: 87
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1450c3c9663f180800000000000000
+      internalID: -9082803202268249614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 145
+        width: 91
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1136f1677114f8dd0800000000000000
+      internalID: -2481693300636032239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 143
+        width: 94
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf1a5fa6f4dbf970800000000000000
+      internalID: 8789853253712617439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 142
+        width: 95
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bc9078e84250820800000000000000
+      internalID: 2883751330970192753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_5
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 139
+        width: 93
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7039a4dbfc5d0670800000000000000
+      internalID: 8506557507847139450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_6
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 139
+        width: 87
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a31972123ed90c60800000000000000
+      internalID: 7784997737526268839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 87
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee9a33e3feb1de40800000000000000
+      internalID: 5679530559789506273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 6
+        width: 96
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0f65ae85c99bc80800000000000000
+      internalID: -8306436132005547787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_9
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 8
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9163eec1cb13ac340800000000000000
+      internalID: 4884771429845710361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_10
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 11
+        width: 107
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dd1164fd38f5f50800000000000000
+      internalID: 6872356551367187832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_11
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 8
+        width: 103
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb2e0e58586cead0800000000000000
+      internalID: -2671645750193148953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 8
+        width: 99
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ade52eb713d6b3f0800000000000000
+      internalID: -885288177803858523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cangaceiro2correndo_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 8
+        width: 95
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6184cdd01cc7de0800000000000000
+      internalID: -1333979124334061907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f184357dc8bd86149ade3be2c4d9ccd5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cangaceiro2correndo_0: -3812449683007701190
+      cangaceiro2correndo_1: -9082803202268249614
+      cangaceiro2correndo_10: 6872356551367187832
+      cangaceiro2correndo_11: -2671645750193148953
+      cangaceiro2correndo_12: -885288177803858523
+      cangaceiro2correndo_13: -1333979124334061907
+      cangaceiro2correndo_2: -2481693300636032239
+      cangaceiro2correndo_3: 8789853253712617439
+      cangaceiro2correndo_4: 2883751330970192753
+      cangaceiro2correndo_5: 8506557507847139450
+      cangaceiro2correndo_6: 7784997737526268839
+      cangaceiro2correndo_7: 5679530559789506273
+      cangaceiro2correndo_8: -8306436132005547787
+      cangaceiro2correndo_9: 4884771429845710361
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
