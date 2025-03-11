@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
     // Pulo e pulo duplo
     void Jump()
     {
-        if (Input.GetKeyDown("up"))
+        if (Input.GetButtonDown("jump"))
         {
             if(!isJumping)
             {
