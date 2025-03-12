@@ -16,18 +16,21 @@ public class DialogueControl : MonoBehaviour {
     public float typingSpeed; //controlar a velocidade do texto, letra por letra por exemplo
     private string[] sentences;
     private int index;
+    public bool complete = true;
 
     public void Speech(Sprite p, string [] txt, string actorName)
     {
         dialogueObj.SetActive(true);
         profile.sprite = p;
         sentences = txt;
+        complete = false;
         actorNameText.text = actorName;
         StartCoroutine(TypeSentence());
     }
 
     IEnumerator TypeSentence() // para as letras aparecerem uma a uma
     {
+        speechText.text = "";
         foreach (char letter in sentences[index].ToCharArray())
         {
             speechText.text += letter;
@@ -48,6 +51,7 @@ public class DialogueControl : MonoBehaviour {
             }
             else //lido quando acaba os textos
             {
+                complete = true;
                 speechText.text = ""; //limpa o texto
                 index = 0; // volta para o início dos diálogos
                 dialogueObj.SetActive(false);

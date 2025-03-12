@@ -14,7 +14,7 @@ public class Dialogue : MonoBehaviour
     //chamar o método de dialoguecontrol
 
     private DialogueControl dc;
-    bool onRadious;
+    public bool onRadious;
 
     private void Start()
     {   //find qdo iniciar o jogo ele procura na cena o lugar que tem o dialoguecontrol
@@ -30,7 +30,11 @@ public class Dialogue : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space) && onRadious) 
         {
-            dc.Speech(profile, speechTxt, actorName);
+            Debug.Log("Entrou");
+            if (dc.complete)
+                dc.Speech(profile, speechTxt, actorName);
+            else
+                dc.NextSentence();
         }
     }
     public void Interact() 
