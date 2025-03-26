@@ -67,6 +67,7 @@ public class Player : MonoBehaviour
                 doubleJump = true;
                 //coloca a animação no player
                 anim.SetBool("jump", true);
+                anim.SetBool("walk", false);
             }
             else
             {

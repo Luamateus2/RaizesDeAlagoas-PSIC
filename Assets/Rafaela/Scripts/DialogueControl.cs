@@ -51,12 +51,16 @@ public class DialogueControl : MonoBehaviour {
             }
             else //lido quando acaba os textos
             {
-                complete = true;
-                speechText.text = ""; //limpa o texto
-                index = 0; // volta para o início dos diálogos
-                dialogueObj.SetActive(false);
+                Complete();
 
             }
         }
+    }
+
+    public void Complete() {
+        complete = true;
+        speechText.text = ""; //limpa o texto
+        index = 0; // volta para o início dos diálogos
+        dialogueObj.SetActive(false);
     }
 }

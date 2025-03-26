@@ -15,6 +15,7 @@ public class Dialogue : MonoBehaviour
 
     private DialogueControl dc;
     public bool onRadious;
+    public bool podeIniciar = true;
 
     private void Start()
     {   //find qdo iniciar o jogo ele procura na cena o lugar que tem o dialoguecontrol
@@ -28,13 +29,16 @@ public class Dialogue : MonoBehaviour
 
     private void Update() //ultimo a ser colocado no vídeo, devido a repetição do mesmo texto
     {
-        if(Input.GetKeyDown(KeyCode.Space) && onRadious) 
+        if(onRadious) 
         {
-            Debug.Log("Entrou");
-            if (dc.complete)
+
+            if (podeIniciar && dc.complete) {
                 dc.Speech(profile, speechTxt, actorName);
-            else
+            }
+            else if (Input.GetKeyDown(KeyCode.Space))
                 dc.NextSentence();
+
+            podeIniciar = false;
         }
     }
     public void Interact() 
@@ -49,8 +53,11 @@ public class Dialogue : MonoBehaviour
         else 
         {
             onRadious = false;
+            podeIniciar = true;
+            dc.Complete();
         }
     }
+
 
     //para mostrar o raio de alcance da colisão   
     private void OnDrawGizmosSelected()
