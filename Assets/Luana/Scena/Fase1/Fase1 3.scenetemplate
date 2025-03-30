@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Fase1 3
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: 9a45899eef7fce00cb72b40b5307311e, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 11400000, guid: acb750211bf74d1838039d7b5b6cc563, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: cc3e121c047373719b8b3b56fd9bd7fc, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: ddc020830e4481a20b968fc370bc9a71, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 64ba435381cd98825a1e89d9f7e5d8d4, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 01e6dc2772a3b7e0da42f54759f6a604, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: a0b280c02cbfffe4084f4722ed26afcc, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: bb3520a55781a954abe89b92bcdc313f, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: 593ef41fce3d7b4329f871bfb8bb0493, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 6643ec95a7793be8d86b24307b767401, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: ab10366a3344905d88a55be067e3e1d0, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: ca8d518c741aed7a1b149f2e96a6fd56, type: 3}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
+  addToDefaults: 0

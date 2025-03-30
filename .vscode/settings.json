@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Raízes de Alagoas.sln"
+    "dotnet.defaultSolution": "RaizesDeAlagoas-PSIC.sln"
 }
