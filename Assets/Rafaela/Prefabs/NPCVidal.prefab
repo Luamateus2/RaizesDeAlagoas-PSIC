@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3576699971628267226}
   - component: {fileID: 3509295102358980735}
   - component: {fileID: 5965533146359583727}
+  - component: {fileID: -8001565377467779753}
   m_Layer: 0
   m_Name: NPCVidal
   m_TagString: Untagged
@@ -157,3 +158,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-8001565377467779753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8508700921530773068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ae906390a8c75458ebc1b5a1896be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: -8908196534283467135, guid: 229ed7e98b49f984fa46d8c5fc6e0be1, type: 3}
+  speechTxt:
+  - Ola Boy!
+  - "Preciso que vc entregue essas moedas de ouro para as vi\xFAvas da guerra"
+  - "Cuidado! No caminho poder\xE1 ter  bandidos, tente desviar deles..."
+  actorName: 
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  radious: 0
+  onRadious: 0
+  podeIniciar: 1
