@@ -499,6 +499,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2790886884745353853, guid: 4b6791783fed99a429236227946dae3b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4587543270890762527, guid: 4b6791783fed99a429236227946dae3b, type: 3}
       propertyPath: m_Name
       value: NPCDonaMaria
@@ -514,8 +518,39 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4587543270890762527, guid: 4b6791783fed99a429236227946dae3b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 27451876}
   m_SourcePrefab: {fileID: 100100000, guid: 4b6791783fed99a429236227946dae3b, type: 3}
+--- !u!1 &27451875 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4587543270890762527, guid: 4b6791783fed99a429236227946dae3b, type: 3}
+  m_PrefabInstance: {fileID: 27451874}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &27451876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27451875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ae906390a8c75458ebc1b5a1896be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 0}
+  speechTxt:
+  - "Ol\xE1 meu Jovem! Muito Obrigada"
+  - "essas moedas v\xE3o ajudar bastante"
+  actorName: 
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  radious: 0
+  onRadious: 0
+  podeIniciar: 1
 --- !u!1 &123889227
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,16 +576,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 123889227}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.67474, y: 0.67474, z: 0.67474}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 685051434}
+  m_Father: {fileID: 639252763}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -315.09644, y: 108.07}
+  m_AnchoredPosition: {x: -305.62415, y: 4.580925}
   m_SizeDelta: {x: 65.8071, y: 134.1929}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &123889229
@@ -1071,7 +1106,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1999418581}
+  - {fileID: 123889228}
+  - {fileID: 1287979718}
+  - {fileID: 2030378064}
   m_Father: {fileID: 685051434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1212,10 +1251,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 639252763}
-  - {fileID: 1999418581}
-  - {fileID: 123889228}
-  - {fileID: 1287979718}
-  - {fileID: 2030378064}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1362,6 +1397,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1057456516477486946, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7245964574147717918, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -1373,8 +1412,39 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8641518174857277813, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1067503372}
   m_SourcePrefab: {fileID: 100100000, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
+--- !u!1 &1067503371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8641518174857277813, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
+  m_PrefabInstance: {fileID: 1067503370}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1067503372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067503371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ae906390a8c75458ebc1b5a1896be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 0}
+  speechTxt:
+  - Obrigada Rapaz!
+  - "Espero que voc\xEA n\xE3o tenha passado por muitos bandidos para chegar aqui"
+  actorName: 
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  radious: 0
+  onRadious: 0
+  podeIniciar: 1
 --- !u!1 &1148265995 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5924700334128477981, guid: 55e99505ca22ee24bbe3368539f1f98c, type: 3}
@@ -1518,16 +1588,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287979717}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 685051434}
+  m_Father: {fileID: 639252763}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.9013, y: 94.59985}
+  m_AnchoredPosition: {x: 26.373621, y: -8.889221}
   m_SizeDelta: {x: 571.8024, y: 67.7803}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1287979719
@@ -1739,6 +1809,15 @@ PrefabInstance:
     - target: {fileID: -8001565377467779753, guid: 56a11e8bb0f12d14da74e3ef5fe6c773, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
       value: "Ola Jo\xE3o!"
+      objectReference: {fileID: 0}
+    - target: {fileID: -8001565377467779753, guid: 56a11e8bb0f12d14da74e3ef5fe6c773, type: 3}
+      propertyPath: 'speechTxt.Array.data[1]'
+      value: "Preciso que voc\xEA entregue essas moedas de ouro para as vi\xFAvas
+        da guerra"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509295102358980735, guid: 56a11e8bb0f12d14da74e3ef5fe6c773, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3576699971628267226, guid: 56a11e8bb0f12d14da74e3ef5fe6c773, type: 3}
       propertyPath: m_SortingOrder
@@ -2075,16 +2154,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999418580}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 685051434}
+  m_Father: {fileID: 639252763}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -169, y: 128}
+  m_AnchoredPosition: {x: -159.5277, y: 24.510887}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1999418582
@@ -2211,17 +2290,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030378063}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 546968736}
-  m_Father: {fileID: 685051434}
+  m_Father: {fileID: 639252763}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 315, y: 67}
+  m_AnchoredPosition: {x: 324.4723, y: -36.489113}
   m_SizeDelta: {x: 49.3764, y: 34.0312}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2030378065
@@ -6805,6 +6884,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8163181901494852703, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8712897829866808248, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -6812,8 +6895,39 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7283788330648296102, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2122191021}
   m_SourcePrefab: {fileID: 100100000, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
+--- !u!1 &2122191020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7283788330648296102, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
+  m_PrefabInstance: {fileID: 2122191019}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2122191021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122191020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ae906390a8c75458ebc1b5a1896be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 0}
+  speechTxt:
+  - Ah! Obrigada
+  - Finalmente o Governador conseguiu nos ajudar
+  actorName: 
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  radious: 0
+  onRadious: 0
+  podeIniciar: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
