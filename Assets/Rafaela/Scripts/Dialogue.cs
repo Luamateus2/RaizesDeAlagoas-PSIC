@@ -16,6 +16,7 @@ public class Dialogue : MonoBehaviour
     private DialogueControl dc;
     public bool onRadious;
     public bool podeIniciar = true;
+    private bool estaAberto = false;
 
     private void Start()
     {   //find qdo iniciar o jogo ele procura na cena o lugar que tem o dialoguecontrol
@@ -31,13 +32,11 @@ public class Dialogue : MonoBehaviour
     {
         if(onRadious) 
         {
-
             if (podeIniciar && dc.complete) {
                 dc.Speech(profile, speechTxt, actorName);
             }
             else if (Input.GetKeyDown(KeyCode.Space))
                 dc.NextSentence();
-
             podeIniciar = false;
         }
     }
@@ -50,7 +49,7 @@ public class Dialogue : MonoBehaviour
             onRadious = true;
             //dc.Speech(profile, speechTxt, actorName); // aqui vai ficar chamando sem parar, temos que atualizar isso no update
         } 
-        else 
+        else if (onRadious)
         {
             onRadious = false;
             podeIniciar = true;

@@ -24,12 +24,15 @@ public class Guerreiro3Walk : MonoBehaviour
 
     void Update()
     {
+        alvoAtual.z = transform.position.z;
         transform.position = Vector3.MoveTowards(transform.position, alvoAtual, velocidade * Time.deltaTime);
 
-        if (Vector3.Distance(transform.position, alvoAtual) < 0.1f)
+        if (Vector2.Distance(transform.position, alvoAtual) < 0.1f)
         {
             // Alterna entre ponto A e ponto B
-            alvoAtual = (alvoAtual == pontoA.position) ? pontoB.position : pontoA.position;
+            alvoAtual = (alvoAtual.x == pontoA.position.x) ? pontoB.position : pontoA.position;
+            
+
 
             // Espelha o sprite horizontalmente
             spriteRenderer.flipX = !spriteRenderer.flipX;
