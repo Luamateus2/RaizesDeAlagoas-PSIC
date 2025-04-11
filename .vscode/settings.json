@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "RaizesDeAlagoas-PSIC.sln"
+    "dotnet.defaultSolution": "RaizesDeAlagoas-PSIC.sln",
+    "dotnet.preferCSharpExtension": true
 }
