@@ -457,15 +457,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1099827843590004210, guid: 4b6791783fed99a429236227946dae3b, type: 3}
       propertyPath: m_LocalScale.x
-      value: -1
+      value: -0.8900602
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099827843590004210, guid: 4b6791783fed99a429236227946dae3b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8900602
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099827843590004210, guid: 4b6791783fed99a429236227946dae3b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8900602
       objectReference: {fileID: 0}
     - target: {fileID: 1099827843590004210, guid: 4b6791783fed99a429236227946dae3b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 57.53
+      value: 57.7
       objectReference: {fileID: 0}
     - target: {fileID: 1099827843590004210, guid: 4b6791783fed99a429236227946dae3b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.41527587
+      value: -0.53
       objectReference: {fileID: 0}
     - target: {fileID: 1099827843590004210, guid: 4b6791783fed99a429236227946dae3b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -509,7 +517,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4587543270890762527, guid: 4b6791783fed99a429236227946dae3b, type: 3}
       propertyPath: m_Layer
-      value: 11
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587543270890762527, guid: 4b6791783fed99a429236227946dae3b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6184049823106272928, guid: 4b6791783fed99a429236227946dae3b, type: 3}
       propertyPath: m_SortingOrder
@@ -540,15 +552,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ae906390a8c75458ebc1b5a1896be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 0}
+  profile: {fileID: 616892209, guid: 9859a4830784efb4288c5f127144c319, type: 3}
   speechTxt:
-  - "Ol\xE1 meu Jovem! Muito Obrigada"
-  - "essas moedas v\xE3o ajudar bastante"
-  actorName: 
+  - "Ol\xE1 meu Jovem! Muito Obrigada."
+  - "Essas moedas v\xE3o ajudar bastante a minha fam\xEDlia"
+  actorName: "Vi\xFAva"
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
-  radious: 0
+    m_Bits: 2048
+  radious: 0.67
   onRadious: 0
   podeIniciar: 1
 --- !u!1 &77555738
@@ -607,7 +619,7 @@ Transform:
   m_GameObject: {fileID: 121592608}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.46, y: -0.27, z: 0}
+  m_LocalPosition: {x: 9.46, y: -0.27, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -733,7 +745,7 @@ Transform:
   m_GameObject: {fileID: 296098106}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5099983, y: -0.07000002, z: 0}
+  m_LocalPosition: {x: -1.5099983, y: -0.07000002, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1072,9 +1084,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5924700334128477981, guid: 55e99505ca22ee24bbe3368539f1f98c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1148266003}
-    - targetCorrespondingSourceObject: {fileID: 5924700334128477981, guid: 55e99505ca22ee24bbe3368539f1f98c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1148266002}
   m_SourcePrefab: {fileID: 100100000, guid: 55e99505ca22ee24bbe3368539f1f98c, type: 3}
 --- !u!1 &536444967
 GameObject:
@@ -1255,6 +1264,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue Control
       objectReference: {fileID: 0}
+    - target: {fileID: 892806512947659578, guid: a2db2c63b2e91f640afb482bfd7e78ba, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1954366294325551808, guid: a2db2c63b2e91f640afb482bfd7e78ba, type: 3}
       propertyPath: profile
       value: 
@@ -1333,7 +1346,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &639252763
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1645,15 +1658,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 515401547136677123, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
       propertyPath: m_LocalScale.x
-      value: -1
+      value: -0.89393
+      objectReference: {fileID: 0}
+    - target: {fileID: 515401547136677123, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.89393
+      objectReference: {fileID: 0}
+    - target: {fileID: 515401547136677123, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.89393
       objectReference: {fileID: 0}
     - target: {fileID: 515401547136677123, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 155.11
+      value: 154.684
       objectReference: {fileID: 0}
     - target: {fileID: 515401547136677123, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.44836563
+      value: -0.542
       objectReference: {fileID: 0}
     - target: {fileID: 515401547136677123, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1699,6 +1720,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCViuva
       objectReference: {fileID: 0}
+    - target: {fileID: 8641518174857277813, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8641518174857277813, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1724,15 +1753,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ae906390a8c75458ebc1b5a1896be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 0}
+  profile: {fileID: -1737594225320081025, guid: 848eed738caa0bb49a821f6e8b20cd05, type: 3}
   speechTxt:
   - Obrigada Rapaz!
   - "Espero que voc\xEA n\xE3o tenha passado por muitos bandidos para chegar aqui"
-  actorName: 
+  actorName: "Vi\xFAva"
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
-  radious: 0
+    m_Bits: 2048
+  radious: 0.67
   onRadious: 0
   podeIniciar: 1
 --- !u!1 &1148265995 stripped
@@ -1740,18 +1769,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5924700334128477981, guid: 55e99505ca22ee24bbe3368539f1f98c, type: 3}
   m_PrefabInstance: {fileID: 458771602}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1148266002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148265995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec198e1fa1d4e3243af623143f64b589, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1148266003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2466,7 +2483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8001565377467779753, guid: 56a11e8bb0f12d14da74e3ef5fe6c773, type: 3}
       propertyPath: podeIniciar
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8001565377467779753, guid: 56a11e8bb0f12d14da74e3ef5fe6c773, type: 3}
       propertyPath: playerLayer.m_Bits
@@ -2503,7 +2520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6326811835239799928, guid: 56a11e8bb0f12d14da74e3ef5fe6c773, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.34
+      value: -0.49
       objectReference: {fileID: 0}
     - target: {fileID: 6326811835239799928, guid: 56a11e8bb0f12d14da74e3ef5fe6c773, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2570,6 +2587,18 @@ MonoBehaviour:
   pontoA: {fileID: 296098107}
   pontoB: {fileID: 121592609}
   velocidade: 2
+--- !u!114 &1541884789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541884774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0757014b11295374e9ccc6195c0ce21e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1647339129
 GameObject:
   m_ObjectHideFlags: 0
@@ -2642,15 +2671,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 664380538927035282, guid: b7e6082a3a84e274fba0a107041a3ad2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.050003
+      value: 40.1
       objectReference: {fileID: 0}
     - target: {fileID: 664380538927035282, guid: b7e6082a3a84e274fba0a107041a3ad2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.41
+      value: -0.46
       objectReference: {fileID: 0}
     - target: {fileID: 664380538927035282, guid: b7e6082a3a84e274fba0a107041a3ad2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.893007
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 664380538927035282, guid: b7e6082a3a84e274fba0a107041a3ad2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2684,6 +2713,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Guerreiro3
       objectReference: {fileID: 0}
+    - target: {fileID: 717397230136649759, guid: b7e6082a3a84e274fba0a107041a3ad2, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995070391792511031, guid: b7e6082a3a84e274fba0a107041a3ad2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3355907682728469916, guid: b7e6082a3a84e274fba0a107041a3ad2, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -2695,6 +2732,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 717397230136649759, guid: b7e6082a3a84e274fba0a107041a3ad2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1541884784}
+    - targetCorrespondingSourceObject: {fileID: 717397230136649759, guid: b7e6082a3a84e274fba0a107041a3ad2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1541884789}
   m_SourcePrefab: {fileID: 100100000, guid: b7e6082a3a84e274fba0a107041a3ad2, type: 3}
 --- !u!1 &1684209858 stripped
 GameObject:
@@ -7723,17 +7763,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCViuva2
       objectReference: {fileID: 0}
+    - target: {fileID: 7283788330648296102, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7283788330648296102, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7915544179592451074, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
       propertyPath: m_LocalScale.x
-      value: -1
+      value: -0.9505
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915544179592451074, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9505
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915544179592451074, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9505
       objectReference: {fileID: 0}
     - target: {fileID: 7915544179592451074, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 104.68
+      value: 104.774
       objectReference: {fileID: 0}
     - target: {fileID: 7915544179592451074, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.41
+      value: -0.457
       objectReference: {fileID: 0}
     - target: {fileID: 7915544179592451074, guid: a592b104e084bdd43bac9e1bdc826079, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7800,15 +7856,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ae906390a8c75458ebc1b5a1896be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 0}
+  profile: {fileID: -4936253142422572353, guid: acf8c8d49ece24f4b936c9a77c9b10e0, type: 3}
   speechTxt:
   - Ah! Obrigada
   - Finalmente o Governador conseguiu nos ajudar
-  actorName: 
+  actorName: "Vi\xFAva"
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
-  radious: 0
+    m_Bits: 2048
+  radious: 0.67
   onRadious: 0
   podeIniciar: 1
 --- !u!1660057539 &9223372036854775807
