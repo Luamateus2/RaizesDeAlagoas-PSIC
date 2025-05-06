@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 840312523}
   - component: {fileID: 840312522}
   m_Layer: 5
-  m_Name: fo
+  m_Name: Dialoge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -371,10 +371,10 @@ RectTransform:
   - {fileID: 568226728}
   m_Father: {fileID: 1351112715}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -15.7712, y: -334.241}
-  m_SizeDelta: {x: 1861.4214, y: 243.3709}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -29.289001, y: -223}
+  m_SizeDelta: {x: -58.578613, y: 243.3709}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &840312522
 MonoBehaviour:
