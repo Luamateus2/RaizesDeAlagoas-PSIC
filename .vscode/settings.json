@@ -56,6 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "projeto-lua.sln",
+    "dotnet.defaultSolution": "RaizesDeAlagoas-PSIC.sln",
     "dotnet.preferCSharpExtension": true
 }

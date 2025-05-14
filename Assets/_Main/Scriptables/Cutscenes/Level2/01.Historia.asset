@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d15739cfe35386e4591f6ae91e282820, type: 3}
   m_Name: 01.Historia
   m_EditorClassIdentifier: 
-  background: {fileID: -3613701932646087723, guid: 7d5c238b1f949754bbae0f62e61effff, type: 3}
-  text: Historia da fase 2
-  timer: 6
+  background: {fileID: -1027353922783227394, guid: 75f69cde9fc48b049b6760597145078a, type: 3}
+  text: "Alagoas, 1832. A terra est\xE1 em chamas. O povo cabano, cansado da opress\xE3o,
+    se levanta contra os senhores de engenho e o governo imperial. Ind\xEDgenas se
+    unem \xE0 luta, determinados a recuperar suas terras e garantir sua sobreviv\xEAncia.
+    Para os poderosos, essa revolta precisa ser esmagada. Para os cabanos e ind\xEDgenas,
+    \xE9 uma quest\xE3o de vida ou morte."
+  timer: 10

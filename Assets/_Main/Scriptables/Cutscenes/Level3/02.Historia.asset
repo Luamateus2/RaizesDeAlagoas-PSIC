@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d15739cfe35386e4591f6ae91e282820, type: 3}
+  m_Name: 02.Historia
+  m_EditorClassIdentifier: 
+  background: {fileID: -1593945940117002212, guid: 013fc4ea89c3043458161266fc8e64e9, type: 3}
+  text: "Entre os l\xEDderes dessa revolu\xE7\xE3o est\xE1 um alagoano: Manoel Deodoro
+    da Fonseca. Nascido na vila de Alagoas (hoje Marechal Deodoro), ele cresceu em
+    meio \xE0 tradi\xE7\xE3o militar e se tornou um dos generais mais respeitados
+    do pa\xEDs. Mas mesmo com sua lealdade ao imperador, a press\xE3o dos republicanos
+    o faz tomar uma decis\xE3o que mudar\xE1 o Brasil para sempre."
+  timer: 10

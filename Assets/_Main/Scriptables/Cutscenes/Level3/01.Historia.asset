@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d15739cfe35386e4591f6ae91e282820, type: 3}
   m_Name: 01.Historia
   m_EditorClassIdentifier: 
-  background: {fileID: 56711845220387986, guid: 257bae1881b53a840814639ae5548078, type: 3}
-  text: Historia da fase 3
-  timer: 6
+  background: {fileID: -1593945940117002212, guid: 013fc4ea89c3043458161266fc8e64e9, type: 3}
+  text: "O ano \xE9 1889. O Brasil est\xE1 \xE0 beira de uma grande mudan\xE7a. A
+    monarquia, que governou o pa\xEDs por d\xE9cadas, est\xE1 enfraquecida. O ex\xE9rcito
+    e os republicanos se organizam para derrubar Dom Pedro II e instaurar uma nova
+    forma de governo."
+  timer: 10

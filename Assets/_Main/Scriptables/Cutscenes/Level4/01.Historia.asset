@@ -13,5 +13,9 @@ MonoBehaviour:
   m_Name: 01.Historia
   m_EditorClassIdentifier: 
   background: {fileID: 744007024547877460, guid: a0178fdc9b5e6c4469bb415b3a024187, type: 3}
-  text: Historia da fase 4
-  timer: 6
+  text: "D\xE9cadas se passaram desde a cria\xE7\xE3o da Capitania de Alagoas. Agora,
+    j\xE1 nos anos 1930, a terra enfrenta um novo desafio. O canga\xE7o, liderado
+    pelo temido Lampi\xE3o, espalha o terror pelo sert\xE3o nordestino. Vilas s\xE3o
+    saqueadas, coron\xE9is s\xE3o extorquidos e a popula\xE7\xE3o vive com medo do
+    bando do rei do canga\xE7o."
+  timer: 10

@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d15739cfe35386e4591f6ae91e282820, type: 3}
   m_Name: 02.Historia
   m_EditorClassIdentifier: 
-  background: {fileID: 189220040002944698, guid: 9c829f53c29d55a4b9b57e96528cc77a, type: 3}
-  text: Historia do capitulo
+  background: {fileID: -5351570208314936998, guid: a3c56915d4783194a82b59b0e4f6e5cf, type: 3}
+  text: "Era o ano de 1817. Por s\xE9culos, as terras que hoje conhecemos como Alagoas
+    pertenciam \xE0 Capitania de Pernambuco. Suas matas, rios e engenhos de a\xE7\xFAcar
+    eram fontes de riqueza, mas tamb\xE9m palco de revoltas e disputas pelo poder. "
   timer: 10
