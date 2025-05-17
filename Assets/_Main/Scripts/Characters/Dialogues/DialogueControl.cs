@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI; //biblioteca de interface da unity, para acessar alguns elementos do canvas
 
 public class DialogueControl : MonoBehaviour {
-    // Teremos informações gerais do nosso diálogo
+    // Teremos informacoes gerais do nosso dialogo
     [Header("Components")]
     public GameObject dialogueObj;
     public Image profile;
@@ -18,8 +18,7 @@ public class DialogueControl : MonoBehaviour {
     private int index;
     public bool complete = true;
 
-    public void Speech(Sprite p, string [] txt, string actorName)
-    {
+    public void Speech(Sprite p, string[] txt, string actorName) {
         dialogueObj.SetActive(true);
         profile.sprite = p;
         sentences = txt;
@@ -31,26 +30,22 @@ public class DialogueControl : MonoBehaviour {
     IEnumerator TypeSentence() // para as letras aparecerem uma a uma
     {
         speechText.text = "";
-        foreach (char letter in sentences[index].ToCharArray())
-        {
+        foreach (char letter in sentences[index].ToCharArray()) {
             speechText.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
     }
 
-    public void NextSentence()
-    {
-        if(speechText.text == sentences[index]) // estou verificando o texto corresponde a frase completa para usar o botão
+    public void NextSentence() {
+        if (speechText.text == sentences[index]) // estou verificando o texto corresponde a frase completa para usar o botao
         {
-            //ainda há textos
-            if(index < sentences.Length -1)
-            {
-                index++; // pulo pra próxima fase
+            //ainda ha textos
+            if (index < sentences.Length - 1) {
+                index++; // pulo pra proxima fase
                 speechText.text = ""; // limpo o texto
-                StartCoroutine(TypeSentence()); //chamo a próxima frase
-            }
-            else //lido quando acaba os textos
-            {
+                StartCoroutine(TypeSentence()); //chamo a proxima frase
+            } else //lido quando acaba os textos
+              {
                 Complete();
 
             }
@@ -60,7 +55,7 @@ public class DialogueControl : MonoBehaviour {
     public void Complete() {
         complete = true;
         speechText.text = ""; //limpa o texto
-        index = 0; // volta para o início dos diálogos
+        index = 0; // volta para o inicio dos dialogos
         dialogueObj.SetActive(false);
     }
 }
