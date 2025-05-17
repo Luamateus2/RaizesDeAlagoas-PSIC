@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3360832324094907072}
   - component: {fileID: 6744620802802430270}
   - component: {fileID: 4110662087220138320}
+  - component: {fileID: 3885344574232738828}
   m_Layer: 0
   m_Name: NPCFreiCaneca
   m_TagString: Untagged
@@ -110,3 +111,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3885344574232738828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4973210962948373053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ae906390a8c75458ebc1b5a1896be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 0}
+  speechTxt: []
+  actorName: 
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  radious: 0
+  onRadious: 0
+  podeIniciar: 1

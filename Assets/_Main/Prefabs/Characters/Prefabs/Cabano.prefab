@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8222042192816019566}
   - component: {fileID: 322299842841877467}
   - component: {fileID: 9044234773003875757}
-  - component: {fileID: 3291699853149580361}
+  - component: {fileID: 9088856761725518756}
   m_Layer: 0
   m_Name: Cabano
   m_TagString: Untagged
@@ -158,7 +158,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3291699853149580361
+--- !u!114 &9088856761725518756
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,14 +170,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ae906390a8c75458ebc1b5a1896be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: -9205175749520350075, guid: 5d8c0a5e7f01bec4eb6d2d3121e283cd, type: 3}
-  speechTxt:
-  - "Ol\xE1 Mundo!"
-  - O dialogo ta funcionado
-  - "e o bot\xE3o tbm!"
-  actorName: Cabano
+  profile: {fileID: 0}
+  speechTxt: []
+  actorName: 
   playerLayer:
     serializedVersion: 2
-    m_Bits: 544
-  radious: 0.67
+    m_Bits: 0
+  radious: 0
   onRadious: 0
+  podeIniciar: 1

@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3355907682728469916}
   - component: {fileID: 1995070391792511031}
   - component: {fileID: 5637251625267016226}
+  - component: {fileID: -1180017207007689832}
+  - component: {fileID: -6953258930430647800}
   m_Layer: 0
   m_Name: Guerreiro3
   m_TagString: Untagged
@@ -157,3 +159,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1180017207007689832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717397230136649759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b8da5e2f4506d4b9a405310a96e64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pontoA: {fileID: 0}
+  pontoB: {fileID: 0}
+  velocidade: 2
+--- !u!114 &-6953258930430647800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717397230136649759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0757014b11295374e9ccc6195c0ce21e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

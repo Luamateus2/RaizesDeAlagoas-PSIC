@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 483801977934199756}
   - component: {fileID: 393740944442270708}
   - component: {fileID: 3998800812055428446}
+  - component: {fileID: 4770403776464199092}
+  - component: {fileID: -3518724021215656373}
   m_Layer: 0
   m_Name: Guerreiro1
   m_TagString: Untagged
@@ -157,3 +159,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.34375, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &4770403776464199092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8056859725038274177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314f5413e052a8040b019d08c3752598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pontoA: {fileID: 0}
+  pontoB: {fileID: 0}
+  velocidade: 4
+--- !u!114 &-3518724021215656373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8056859725038274177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0757014b11295374e9ccc6195c0ce21e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
