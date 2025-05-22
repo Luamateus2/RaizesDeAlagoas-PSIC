@@ -1,7 +1,8 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
-    // controles da movimentação do player
+    // controles da movimentaÃ§Ã£o do player
     public float Speed;
     public float JumpForce;
 
@@ -21,9 +22,10 @@ public class Player : MonoBehaviour {
     void Update() {
         Move();
         Jump();
+        CheckFall();
     }
 
-    // Movimentação na Horizontal
+    // MovimentaÃ§Ã£o na Horizontal
     void Move() {
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
         transform.position += movement * Time.deltaTime * Speed;
@@ -45,37 +47,45 @@ public class Player : MonoBehaviour {
         if (Input.GetAxis("Horizontal") == 0f) {
             anim.SetBool("walk", false);
         }
-
     }
 
     // Pulo e pulo duplo
     void Jump() {
         if (Input.GetButtonDown("Jump")) {
             if (!isJumping) {
-                // aqui ele consegue dá o 2º pulo
+                // aqui ele consegue dÃ¡ o 2Âº pulo
                 rigid.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                 doubleJump = true;
-                //coloca a animação no player
+                //coloca a animaÃ§Ã£o no player
                 anim.SetBool("jump", true);
                 anim.SetBool("walk", false);
             } else {
-                //para ele não pular infinitamente, ele para depois do 2º pulo
+                //para ele nÃ£o pular infinitamente, ele para depois do 2Âº pulo
                 if (doubleJump) {
-                    rigid.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse); //caso queira aumentar a força do pulo duplo é so *2 o JumpForce
+                    rigid.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                     doubleJump = false;
                 }
             }
         }
     }
 
-    // Método chamado toda vez que o player toca alguma coisa, desde que tenha um ridigbody e um colisor
+    // Verifica se o player caiu
+    void CheckFall() {
+        if (transform.position.y < -5f) { // Ajuste este valor conforme necessÃ¡rio
+            Debug.Log("Player caiu do mapa!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
+    // MÃ©todo chamado toda vez que o player toca alguma coisa, desde que tenha um ridigbody e um colisor
     void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.layer == 8) {
             isJumping = false;
             anim.SetBool("jump", false);
         }
     }
-    // Método chamado toda vez que o player PARA de tocar alguma coisa, desde que tenha um ridigbody e um colisor
+
+    // MÃ©todo chamado toda vez que o player PARA de tocar alguma coisa, desde que tenha um ridigbody e um colisor
     void OnCollisionExit2D(Collision2D collision) {
         if (collision.gameObject.layer == 8) {
             isJumping = true;
