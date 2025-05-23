@@ -11,6 +11,7 @@ public class Player : MonoBehaviour {
 
     private Rigidbody2D rigid;
     private Animator anim;
+    private float moveInput;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
@@ -20,31 +21,34 @@ public class Player : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        // Captura o input de movimento
+        moveInput = Input.GetAxis("Horizontal");
+
+        // Movimentação e animação
         Move();
         Jump();
         CheckFall();
     }
 
+    void FixedUpdate() {
+        // Aplica o movimento usando o Rigidbody2D
+        rigid.linearVelocity = new Vector2(moveInput * Speed, rigid.linearVelocity.y);
+    }
+
     // Movimentação na Horizontal
     void Move() {
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
-        transform.position += movement * Time.deltaTime * Speed;
-
         //andando pra direita
-        if (Input.GetAxis("Horizontal") > 0f) {
+        if (moveInput > 0f) {
             anim.SetBool("walk", true);
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
         }
-
         //andando pra esquerda
-        if (Input.GetAxis("Horizontal") < 0f) {
+        else if (moveInput < 0f) {
             anim.SetBool("walk", true);
-            //rotacionar
             transform.eulerAngles = new Vector3(0f, 180f, 0f);
         }
-
         //volta pro idle
-        if (Input.GetAxis("Horizontal") == 0f) {
+        else {
             anim.SetBool("walk", false);
         }
     }
@@ -53,16 +57,13 @@ public class Player : MonoBehaviour {
     void Jump() {
         if (Input.GetButtonDown("Jump")) {
             if (!isJumping) {
-                // aqui ele consegue dá o 2º pulo
-                rigid.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
+                rigid.linearVelocity = new Vector2(rigid.linearVelocity.x, JumpForce);
                 doubleJump = true;
-                //coloca a animação no player
                 anim.SetBool("jump", true);
                 anim.SetBool("walk", false);
             } else {
-                //para ele não pular infinitamente, ele para depois do 2º pulo
                 if (doubleJump) {
-                    rigid.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
+                    rigid.linearVelocity = new Vector2(rigid.linearVelocity.x, JumpForce);
                     doubleJump = false;
                 }
             }
@@ -71,23 +72,25 @@ public class Player : MonoBehaviour {
 
     // Verifica se o player caiu
     void CheckFall() {
-        if (transform.position.y < -5f) { // Ajuste este valor conforme necessário
+        if (transform.position.y < -10f) {
             Debug.Log("Player caiu do mapa!");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 
-    // Método chamado toda vez que o player toca alguma coisa, desde que tenha um ridigbody e um colisor
+    // Método chamado toda vez que o player toca alguma coisa
     void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.gameObject.layer == 8) {
+        // Verifica se está tocando o chão (Tilemap)
+        if (collision.gameObject.layer == LayerMask.NameToLayer("chao geral (1)")) {
             isJumping = false;
             anim.SetBool("jump", false);
         }
     }
 
-    // Método chamado toda vez que o player PARA de tocar alguma coisa, desde que tenha um ridigbody e um colisor
+    // Método chamado toda vez que o player PARA de tocar alguma coisa
     void OnCollisionExit2D(Collision2D collision) {
-        if (collision.gameObject.layer == 8) {
+        // Verifica se saiu do chão (Tilemap)
+        if (collision.gameObject.layer == LayerMask.NameToLayer("chao geral (1)")) {
             isJumping = true;
         }
     }
