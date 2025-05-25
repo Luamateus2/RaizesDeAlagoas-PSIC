@@ -11277,6 +11277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampiao
       objectReference: {fileID: 0}
+    - target: {fileID: 2150447774169562354, guid: e9d7628e8193c6041b5c69d93a83efac, type: 3}
+      propertyPath: m_TagString
+      value: Lampiao
+      objectReference: {fileID: 0}
     - target: {fileID: 2373266170333895443, guid: e9d7628e8193c6041b5c69d93a83efac, type: 3}
       propertyPath: m_LocalPosition.x
       value: -155.3

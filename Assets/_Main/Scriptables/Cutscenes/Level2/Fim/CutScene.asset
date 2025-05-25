@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d15739cfe35386e4591f6ae91e282820, type: 3}
+  m_Name: CutScene
+  m_EditorClassIdentifier: 
+  background: {fileID: -1027353922783227394, guid: 75f69cde9fc48b049b6760597145078a, type: 3}
+  text: "Com a destrui\xE7\xE3o do acampamento, os soldados do governo recuam. Os
+    cabanos e ind\xEDgenas agora t\xEAm uma chance de resistir \xE0 opress\xE3o.
+    O movimento ganha for\xE7a, mas a luta est\xE1 longe de acabar. A guerra continua,
+    e Jo\xE3o sabe que a batalha pela liberdade est\xE1 apenas come\xE7ando."
+  timer: 6
