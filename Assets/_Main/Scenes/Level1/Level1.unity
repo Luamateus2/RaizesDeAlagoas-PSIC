@@ -13512,7 +13512,7 @@ MonoBehaviour:
   profile: {fileID: 616892209, guid: 9859a4830784efb4288c5f127144c319, type: 3}
   speechTxt:
   - "Ol\xE1 Jo\xE3o"
-  - Obrigada!
+  - muito obrigada!
   actorName: "Vi\xFAva"
   playerLayer:
     serializedVersion: 2
@@ -14149,6 +14149,10 @@ PrefabInstance:
       value: "Vi\xFAva"
       objectReference: {fileID: 0}
     - target: {fileID: 267094135295069657, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 267094135295069657, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
       propertyPath: onRadious
       value: 1
       objectReference: {fileID: 0}
@@ -14162,7 +14166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 267094135295069657, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: "Ol\xE1 Joao"
+      value: "Muito  Obrigada, Jo\xE3o!"
       objectReference: {fileID: 0}
     - target: {fileID: 515401547136677123, guid: 4679a58bccfa1ca43a9df327b0a66f88, type: 3}
       propertyPath: m_LocalScale.x
