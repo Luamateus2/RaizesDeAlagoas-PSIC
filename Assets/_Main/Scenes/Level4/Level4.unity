@@ -1799,11 +1799,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
       propertyPath: speechTxt.Array.size
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: "Ol\xE1 Jo\xE3o!"
+      value: "Jo\xE3o, voc\xEA j\xE1 enfrentou desafios no passado, mas este ser\xE1
+        o maior de todos.  "
+      objectReference: {fileID: 0}
+    - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
+      propertyPath: 'speechTxt.Array.data[1]'
+      value: "Lampi\xE3o est\xE1 em Arapiraca, e precisamos acabar com sua amea\xE7a
+        antes que seja tarde."
+      objectReference: {fileID: 0}
+    - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
+      propertyPath: 'speechTxt.Array.data[2]'
+      value: "Sabemos que derrotar o rei do canga\xE7o n\xE3o ser\xE1 f\xE1cil \u2014
+        seu bando \xE9 astuto e ele tem aliados em todo o sert\xE3o."
+      objectReference: {fileID: 0}
+    - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
+      propertyPath: 'speechTxt.Array.data[3]'
+      value: "Mas temos informa\xE7\xF5es de que ele estar\xE1 vulner\xE1vel esta
+        noite. "
+      objectReference: {fileID: 0}
+    - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
+      propertyPath: 'speechTxt.Array.data[4]'
+      value: " Voc\xEA deve encontrar um jeito de elimin\xE1-lo antes que ele fuja
+        para o mato. A seguran\xE7a de toda a regi\xE3o depende de voc\xEA."
       objectReference: {fileID: 0}
     - target: {fileID: 6154544721142085115, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
       propertyPath: m_Name

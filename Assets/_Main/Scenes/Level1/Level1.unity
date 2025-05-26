@@ -944,7 +944,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d72af105b758648478561cf0fb4f6272, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: d72af105b758648478561cf0fb4f6272, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.134
@@ -13609,7 +13609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 616892209, guid: 9859a4830784efb4288c5f127144c319, type: 3}
   speechTxt:
-  - "Ol\xE1 Jo\xE3o"
+  - "Ol\xE1 Jo\xE3o!"
   - muito obrigada!
   actorName: "Vi\xFAva"
   playerLayer:
@@ -15042,8 +15042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: -4936253142422572353, guid: acf8c8d49ece24f4b936c9a77c9b10e0, type: 3}
   speechTxt:
-  - "Ol\xE1 Jo\xE3o"
-  - Obrigada!
+  - Muito obrigada!
   actorName: "Vi\xFAva"
   playerLayer:
     serializedVersion: 2

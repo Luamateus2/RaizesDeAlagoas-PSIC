@@ -3946,11 +3946,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9088856761725518756, guid: b4859cde03869bd44954aa6f41bc8895, type: 3}
       propertyPath: speechTxt.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9088856761725518756, guid: b4859cde03869bd44954aa6f41bc8895, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: "Ol\xE1 Jo\xE3o"
+      value: "Jo\xE3o, voc\xEA j\xE1 deve ter entendido o que est\xE1 acontecendo.
+        Eles v\xEAm para nos esmagar como insetos, mas n\xE3o vamos deixar barato. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 9088856761725518756, guid: b4859cde03869bd44954aa6f41bc8895, type: 3}
+      propertyPath: 'speechTxt.Array.data[1]'
+      value: " Se destruirmos o acampamento deles, podemos for\xE7\xE1-los a recuar. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 9088856761725518756, guid: b4859cde03869bd44954aa6f41bc8895, type: 3}
+      propertyPath: 'speechTxt.Array.data[2]'
+      value: "Sem suprimentos, sem abrigo e sem comando, eles n\xE3o v\xE3o durar
+        muito tempo por aqui. Mas precisamos ser r\xE1pidos e precisos. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 9088856761725518756, guid: b4859cde03869bd44954aa6f41bc8895, type: 3}
+      propertyPath: 'speechTxt.Array.data[3]'
+      value: "Sua miss\xE3o \xE9 acabar com o acampamento inimigo antes que eles
+        nos ataquem com for\xE7a total!\""
       objectReference: {fileID: 0}
     - target: {fileID: 9089307993845630430, guid: b4859cde03869bd44954aa6f41bc8895, type: 3}
       propertyPath: m_LocalScale.x

@@ -2025,7 +2025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6037772503136003584, guid: 83a005405c6cd9343b7fba9d50830ae9, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: "Ol\xE1 Jo\xE3o!"
+      value: Obrigada pela carta!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2788,7 +2788,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3182348141818995648, guid: 4fa49cd3072ba754780b80847dd655bd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1172101542}
   m_SourcePrefab: {fileID: 100100000, guid: 4fa49cd3072ba754780b80847dd655bd, type: 3}
 --- !u!1 &741927018
 GameObject:
@@ -3568,6 +3571,11 @@ Transform:
   - {fileID: 715705130}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &924621734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3182348141818995648, guid: 4fa49cd3072ba754780b80847dd655bd, type: 3}
+  m_PrefabInstance: {fileID: 741113235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &930509095
 GameObject:
   m_ObjectHideFlags: 0
@@ -17017,6 +17025,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2312612193194176906, guid: 4fa49cd3072ba754780b80847dd655bd, type: 3}
   m_PrefabInstance: {fileID: 741113235}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1172101542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924621734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a619f543d182f147b61ace79cfed960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1176806017 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 544335821051970699, guid: a3b22aed61a757e48a5b16f77dc722ca, type: 3}
@@ -18822,7 +18842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6037772503136003584, guid: 83a005405c6cd9343b7fba9d50830ae9, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: "Ol\xE1 jo\xE3o"
+      value: Obrigada pela carta!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19520,7 +19540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6037772503136003584, guid: 83a005405c6cd9343b7fba9d50830ae9, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: "Ol\xE1 jo\xE3o"
+      value: Obrigada pela carta!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19730,7 +19750,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: "Ol\xE1 jo\xE3o"
+      value: "Jo\xE3o, leve essa mensagem aos l\xEDderes pol\xEDticos em Macei\xF3.
+        Precisamos organizar o governo local para apoiar a Rep\xFAblica e evitar
+        uma guerra civil!"
       objectReference: {fileID: 0}
     - target: {fileID: 6154544721142085115, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
       propertyPath: m_Name
