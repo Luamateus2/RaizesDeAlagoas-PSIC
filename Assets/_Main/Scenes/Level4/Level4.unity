@@ -778,6 +778,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4681481400426144639, guid: c049709986b2527469a53e222228c466, type: 3}
   m_PrefabInstance: {fileID: 354120668}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &369929404 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4726446149802220592, guid: c049709986b2527469a53e222228c466, type: 3}
+  m_PrefabInstance: {fileID: 8389797108179569477}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &480045308
 GameObject:
   m_ObjectHideFlags: 0
@@ -1803,8 +1808,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: "Jo\xE3o, voc\xEA j\xE1 enfrentou desafios no passado, mas este ser\xE1
-        o maior de todos.  "
+      value: "Jo\xE3o, voc\xEA j\xE1 enfrentou desafios, mas este ser\xE1 o maior
+        de todos."
       objectReference: {fileID: 0}
     - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
       propertyPath: 'speechTxt.Array.data[1]'
@@ -1825,6 +1830,10 @@ PrefabInstance:
       propertyPath: 'speechTxt.Array.data[4]'
       value: " Voc\xEA deve encontrar um jeito de elimin\xE1-lo antes que ele fuja
         para o mato. A seguran\xE7a de toda a regi\xE3o depende de voc\xEA."
+      objectReference: {fileID: 0}
+    - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
+      propertyPath: 'speechTxt.Array.data[5]'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6154544721142085115, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
       propertyPath: m_Name
@@ -2925,6 +2934,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4681481400426144639, guid: c049709986b2527469a53e222228c466, type: 3}
   m_PrefabInstance: {fileID: 8389797108179569477}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1899946369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369929404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9448ed533928224dac052e1c137f874, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1999426273
 GameObject:
   m_ObjectHideFlags: 0
@@ -11401,12 +11422,24 @@ PrefabInstance:
       value: Lampiao
       objectReference: {fileID: 0}
     - target: {fileID: 2373266170333895443, guid: e9d7628e8193c6041b5c69d93a83efac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.62733954
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373266170333895443, guid: e9d7628e8193c6041b5c69d93a83efac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.62733954
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373266170333895443, guid: e9d7628e8193c6041b5c69d93a83efac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.62733954
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373266170333895443, guid: e9d7628e8193c6041b5c69d93a83efac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -155.3
+      value: -155.23
       objectReference: {fileID: 0}
     - target: {fileID: 2373266170333895443, guid: e9d7628e8193c6041b5c69d93a83efac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.59
+      value: -12.23
       objectReference: {fileID: 0}
     - target: {fileID: 2373266170333895443, guid: e9d7628e8193c6041b5c69d93a83efac, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11458,6 +11491,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1841929163}
     m_Modifications:
+    - target: {fileID: -9050359215088608338, guid: c049709986b2527469a53e222228c466, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4681481400426144639, guid: c049709986b2527469a53e222228c466, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5965308
@@ -11525,7 +11562,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4726446149802220592, guid: c049709986b2527469a53e222228c466, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1899946369}
   m_SourcePrefab: {fileID: 100100000, guid: c049709986b2527469a53e222228c466, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
