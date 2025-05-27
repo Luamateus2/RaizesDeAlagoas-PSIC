@@ -2025,7 +2025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6037772503136003584, guid: 83a005405c6cd9343b7fba9d50830ae9, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: Obrigada pela carta!
+      value: Muito Obrigado pela carta!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18842,7 +18842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6037772503136003584, guid: 83a005405c6cd9343b7fba9d50830ae9, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: Obrigada pela carta!
+      value: Obrigado pela carta!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19540,7 +19540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6037772503136003584, guid: 83a005405c6cd9343b7fba9d50830ae9, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: Obrigada pela carta!
+      value: "Agrade\xE7o muito pela carta!"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19746,12 +19746,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
       propertyPath: speechTxt.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
       propertyPath: 'speechTxt.Array.data[0]'
-      value: "Jo\xE3o, leve essa mensagem aos l\xEDderes pol\xEDticos em Macei\xF3.
-        Precisamos organizar o governo local para apoiar a Rep\xFAblica e evitar
+      value: "Jo\xE3o, leve essa mensagem aos l\xEDderes pol\xEDticos em Macei\xF3"
+      objectReference: {fileID: 0}
+    - target: {fileID: -5851761113300744133, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
+      propertyPath: 'speechTxt.Array.data[1]'
+      value: "Precisamos organizar o governo local para apoiar a Rep\xFAblica e evitar
         uma guerra civil!"
       objectReference: {fileID: 0}
     - target: {fileID: 6154544721142085115, guid: 0dc7ca48e1ad6a44387112c9a66fd3d7, type: 3}
