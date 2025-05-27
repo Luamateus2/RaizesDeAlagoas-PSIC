@@ -12,9 +12,12 @@ public class CangaceiroGameOver : MonoBehaviour {
     void Update() {
 
     }
-
-    private void OnCollisionEnter2D(Collision2D collision) {
+    
+    
+    private void OnTriggerEnter2D(Collider2D collision) {
+        Debug.Log("A");
         if (collision.gameObject.name == "Player") {
+            Debug.Log("B");
             float playerPosY = collision.transform.position.y;
             float cangaceiroPosY = transform.position.y;
 

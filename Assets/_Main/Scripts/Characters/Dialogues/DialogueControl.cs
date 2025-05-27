@@ -18,6 +18,10 @@ public class DialogueControl : MonoBehaviour {
     private int index;
     public bool complete = true;
 
+    private void Start() {
+        dialogueObj.SetActive(false);
+    }
+
     public void Speech(Sprite p, string[] txt, string actorName) {
         dialogueObj.SetActive(true);
         profile.sprite = p;
@@ -53,9 +57,12 @@ public class DialogueControl : MonoBehaviour {
     }
 
     public void Complete() {
-        complete = true;
-        speechText.text = ""; //limpa o texto
-        index = 0; // volta para o inicio dos dialogos
-        dialogueObj.SetActive(false);
+        if (speechText) {
+            complete = true;
+
+            speechText.text = ""; //limpa o texto
+            index = 0; // volta para o inicio dos dialogos
+            dialogueObj.SetActive(false);
+        }
     }
 }
