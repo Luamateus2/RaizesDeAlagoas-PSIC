@@ -15,4 +15,4 @@ MonoBehaviour:
   background: {fileID: -7767151191031350927, guid: 1bfee789b13dc1a48a84025beba12353, type: 3}
   text: "\"A jornada chegou ao fim, garantindo o sustento das vi\xFAvas e a esperan\xE7a
     de dias melhores para o povo de Alagoas.\""
-  timer: 3
+  timer: 10

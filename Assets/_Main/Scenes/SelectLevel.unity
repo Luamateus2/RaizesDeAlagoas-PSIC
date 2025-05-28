@@ -2469,7 +2469,7 @@ MonoBehaviour:
   ButtonLevel1: {fileID: 422521130}
   backgroundLevel1: {fileID: 189220040002944698, guid: 9c829f53c29d55a4b9b57e96528cc77a, type: 3}
   title1Name: "Mundo 1 - Cria\xE7\xE3o da Prov\xEDncia de Alagoas"
-  level1Name: _Main/Scenes/Level1/CutScene
+  level1Name: _Main/Scenes/Level1/CutSceneInicial
   ButtonLevel2: {fileID: 1218438288}
   backgroundLevel2: {fileID: -3613701932646087723, guid: 7d5c238b1f949754bbae0f62e61effff, type: 3}
   title2Name: Mundo 2 - Guerra dos Cabanos

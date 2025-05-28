@@ -15,4 +15,4 @@ MonoBehaviour:
   background: {fileID: -7767151191031350927, guid: 1bfee789b13dc1a48a84025beba12353, type: 3}
   text: "\"Jo\xE3o retorna \xE0 vila, aliviado ap\xF3s concluir sua miss\xE3o. O
     governador o recebe com satisfa\xE7\xE3o, reconhecendo sua coragem e esfor\xE7o.\""
-  timer: 3
+  timer: 10

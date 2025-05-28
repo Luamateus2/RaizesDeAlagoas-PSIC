@@ -16,9 +16,12 @@ public class ColisorGameOver : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.gameObject.name == "Player") {
+        if (collision.gameObject.name == "Player")
+        {
             Debug.Log("AAA");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                FindObjectOfType<LevelController>().GameOver();
+
         }
     }
 }

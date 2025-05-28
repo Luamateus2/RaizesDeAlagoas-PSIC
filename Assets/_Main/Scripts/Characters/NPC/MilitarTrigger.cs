@@ -17,7 +17,7 @@ public class MilitarTrigger : MonoBehaviour
             if (militarCount >= 3)
             {
                 Debug.Log("Player passou por 3 Militares! Indo para CutSceneFinal.");
-                SceneManager.LoadScene("CutSceneFinal");
+                FindObjectOfType<LevelController>().CompleteLevel();
             }
         }
     }

@@ -19,12 +19,17 @@ public class GuerreiroGameOver : MonoBehaviour {
             float guerreiroPosY = transform.position.y;
 
             // Jogador está acima do guerreiro o suficiente para derrotá-lo
-            if (playerPosY > guerreiroPosY + 0.5f) {
+            if (playerPosY > guerreiroPosY + 0.5f)
+            {
                 Debug.Log("Guerreiro derrotado!");
                 Destroy(gameObject);
-            } else {
+            }
+            else
+            {
                 Debug.Log("Player derrotado!");
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                FindObjectOfType<LevelController>().GameOver();
+
             }
         }
     }

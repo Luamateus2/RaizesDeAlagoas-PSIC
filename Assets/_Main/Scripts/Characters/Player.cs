@@ -72,9 +72,13 @@ public class Player : MonoBehaviour {
 
     // Verifica se o player caiu
     void CheckFall() {
-        if (transform.position.y < -10f) {
+        if (transform.position.y < -10f)
+        {
             Debug.Log("Player caiu do mapa!");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            FindObjectOfType<LevelController>().GameOver();
+
+
         }
     }
 
