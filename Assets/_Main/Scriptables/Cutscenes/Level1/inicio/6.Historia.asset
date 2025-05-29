@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d15739cfe35386e4591f6ae91e282820, type: 3}
-  m_Name: 03.Historia
+  m_Name: 6.Historia
   m_EditorClassIdentifier: 
   background: {fileID: -5351570208314936998, guid: a3c56915d4783194a82b59b0e4f6e5cf, type: 3}
-  text: "Aqui, nas terras f\xE9rteis de Alagoas, os l\xEDderes locais permaneceram
-    fi\xE9is ao rei Dom Jo\xE3o VI. Como forma de premiar essa lealdade estrat\xE9gica,
-    o rei decidiu: Alagoas, at\xE9 ent\xE3o apenas uma parte da Capitania de Pernambuco,
-    seria elevada \xE0 condi\xE7\xE3o de Capitania aut\xF4noma."
+  text: "Militar experiente e leal \xE0 Coroa, Sebasti\xE3o de Melo e P\xF3voas assumiu
+    o posto de primeiro governador da Capitania de Alagoas. Sua miss\xE3o era \xE1rdua:
+    estabelecer a administra\xE7\xE3o p\xFAblica, garantir a ordem, fortalecer as
+    defesas e assegurar que Alagoas se consolidasse como um dos novos polos de poder
+    e desenvolvimento no Nordeste."
   timer: 13

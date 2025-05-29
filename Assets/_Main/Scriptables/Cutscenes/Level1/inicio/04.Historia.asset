@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: 04.Historia
   m_EditorClassIdentifier: 
   background: {fileID: -5351570208314936998, guid: a3c56915d4783194a82b59b0e4f6e5cf, type: 3}
-  text: "Sebasti\xE3o Francisco de Melo e P\xF3voas foi nomeado o primeiro governador
-    da nova capitania. Sua miss\xE3o era organizar o territ\xF3rio, manter a ordem
-    e garantir a prosperidade das terras alagoanas. Mas os tempos eram dif\xEDceis:
-    bandidos assaltavam estradas, engenhos enfrentavam dificuldades..."
-  timer: 3
+  text: "Assim, em 16 de setembro de 1817, nascia oficialmente a Capitania de Alagoas.
+    Um territ\xF3rio que j\xE1 era conhecido por sua riqueza: engenhos de a\xE7\xFAcar
+    que abasteciam o mundo, rios naveg\xE1veis, vilas pr\xF3speras como Penedo, Porto
+    Calvo e Marechal Deodoro (ent\xE3o chamada simplesmente de \"Vila de Alagoas\").
+    Mas, agora, essas terras ganhavam algo novo: identidade pr\xF3pria e autonomia
+    pol\xEDtica."
+  timer: 13

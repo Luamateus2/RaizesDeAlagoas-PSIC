@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d15739cfe35386e4591f6ae91e282820, type: 3}
-  m_Name: 01.Intro
+  m_Name: 01.Intro 3
   m_EditorClassIdentifier: 
   background: {fileID: -1643119308401676938, guid: 4146ff9d4b1cb0e42a3d91c0a0b853e7, type: 3}
-  text: "Jo\xE3o, um estudante de 14 anos do Ensino Fundamental II, levava uma vida
-    como a de muitos outros: entre videogames, aulas e sua paix\xE3o por ci\xEAncias.
-    Nunca imaginou que um simples dia na escola mudaria tudo."
+  text: "A jornada come\xE7ou\u2026 e Jo\xE3o est\xE1 prestes a descobrir que a Hist\xF3ria
+    pode ser mais emocionante do que qualquer videogame!"
   timer: 13

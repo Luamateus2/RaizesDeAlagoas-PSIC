@@ -323,12 +323,28 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1254303634699882485, guid: 51148efe20e23cd47ad58a00f60ab8b5, type: 3}
       propertyPath: itens.Array.size
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1254303634699882485, guid: 51148efe20e23cd47ad58a00f60ab8b5, type: 3}
       propertyPath: 'itens.Array.data[2]'
       value: 
-      objectReference: {fileID: 11400000, guid: dfcfe4de78c01584980d18dbfa494592, type: 2}
+      objectReference: {fileID: 11400000, guid: 09ea6fc1584b55741af191c5ba58abca, type: 2}
+    - target: {fileID: 1254303634699882485, guid: 51148efe20e23cd47ad58a00f60ab8b5, type: 3}
+      propertyPath: 'itens.Array.data[3]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 45b522137bfb498458e1112469d0c528, type: 2}
+    - target: {fileID: 1254303634699882485, guid: 51148efe20e23cd47ad58a00f60ab8b5, type: 3}
+      propertyPath: 'itens.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 512cb11c476d77a4c9c91156d00cd74f, type: 2}
+    - target: {fileID: 1254303634699882485, guid: 51148efe20e23cd47ad58a00f60ab8b5, type: 3}
+      propertyPath: 'itens.Array.data[5]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 58b9f57967493cc4584089a6ba3c5410, type: 2}
+    - target: {fileID: 1254303634699882485, guid: 51148efe20e23cd47ad58a00f60ab8b5, type: 3}
+      propertyPath: 'itens.Array.data[6]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8a48468e010b52344b64cf71bfe561a4, type: 2}
     - target: {fileID: 4326117856712934714, guid: 51148efe20e23cd47ad58a00f60ab8b5, type: 3}
       propertyPath: m_fontSize
       value: 37.9
