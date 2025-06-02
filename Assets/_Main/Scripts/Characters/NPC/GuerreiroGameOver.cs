@@ -1,35 +1,33 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
-public class GuerreiroGameOver : MonoBehaviour {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start() {
+public class GuerreiroGameOver : MonoBehaviour
+{
+    private FaseController faseController;
 
+    void Start()
+    {
+        faseController = FindObjectOfType<FaseController>();
     }
 
-    // Update is called once per frame
-    void Update() {
-
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.gameObject.name == "Player") {
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Player")
+        {
             float playerPosY = collision.transform.position.y;
             float guerreiroPosY = transform.position.y;
 
-            // Jogador está acima do guerreiro o suficiente para derrotá-lo
             if (playerPosY > guerreiroPosY + 0.5f)
             {
                 Debug.Log("Guerreiro derrotado!");
+                faseController.GuerreiroEliminado();
                 Destroy(gameObject);
             }
             else
             {
                 Debug.Log("Player derrotado!");
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                FindObjectOfType<LevelController>().GameOver();
-
+                // faseController.GameOver(); // Remova ou adicione se tiver esse método.
             }
         }
     }
